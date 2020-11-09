@@ -204,6 +204,16 @@
     <Folder Include="Public\Plugins\transitionize\" />
     <Folder Include="Public\Plugins\validator\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WEB_ENTIDAD\WEB_ENTIDAD.csproj">
+      <Project>{1368cd5d-6303-414e-a4e9-bce2149b7ab9}</Project>
+      <Name>WEB_ENTIDAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WEB_MODEL\WEB_MODEL.csproj">
+      <Project>{174e85ea-1890-4132-9730-65d4ce486489}</Project>
+      <Name>WEB_MODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
